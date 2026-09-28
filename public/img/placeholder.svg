@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="No product image yet">
+<rect width="200" height="200" fill="#e8edf5"/>
+<circle cx="66" cy="72" r="44" fill="#c9d4e4" opacity="0.5"/>
+<circle cx="140" cy="128" r="34" fill="#c9d4e4" opacity="0.4"/>
+<g fill="none" stroke="#8b9bb4" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<rect x="58" y="66" width="84" height="66" rx="8"/>
+<circle cx="100" cy="92" r="9"/>
+<path d="m64 122 24-22 20 18 16-13 12 11"/>
+</g>
+<text x="100" y="164" text-anchor="middle" font-family="system-ui,-apple-system,Segoe UI,Roboto,sans-serif" font-size="12" font-weight="600" fill="#64748b" letter-spacing="1.4">AWAJ</text>
+</svg>

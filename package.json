@@ -1,0 +1,33 @@
+{
+  "name": "awaj",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AWAJ - China Trends, Delivered to Bangladesh. Lightweight fullstack e-commerce marketplace.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "scripts": {
+    "dev": "node --watch --env-file-if-exists=.env server/index.js",
+    "start": "node --env-file-if-exists=.env server/index.js",
+    "seed": "node --env-file-if-exists=.env server/db/seed.js",
+    "seed:reset": "node --env-file-if-exists=.env server/db/seed.js --reset",
+    "setup": "npm run seed:reset",
+    "admin:password": "node scripts/set-admin-password.js",
+    "images:optimize": "node scripts/optimize-images.js",
+    "test": "node --import ./test/setup.js --test \"test/*.test.js\"",
+    "check": "node --check server/index.js && npm test",
+    "e2e": "node scripts/e2e.js",
+    "check:unused": "node scripts/check-unused.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "bangladesh",
+    "marketplace",
+    "preorder"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "sharp": "^0.35.5"
+  }
+}
